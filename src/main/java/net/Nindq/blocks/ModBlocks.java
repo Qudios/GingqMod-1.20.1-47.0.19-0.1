@@ -23,7 +23,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
 
     public static final RegistryObject<Block> RAW_GEMS_BLOCK = registerBlock("raw_gems_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_EMERALD_ORE).sound(SoundType.AZALEA_LEAVES)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_EMERALD_ORE)));
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toreturn = BLOCKS.register(name, block);
         registerBlockItem(name, toreturn);
