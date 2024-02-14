@@ -1,6 +1,7 @@
 package net.Nindq.items;
 
 import net.Nindq.GingqMod;
+import net.Nindq.blocks.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GEMS.get());
                         output.accept(ModItems.RAW_GEMS.get());
+                        output.accept(ModBlocks.GEMS_BLOCKS.get());
                     })
                     .build());
 
