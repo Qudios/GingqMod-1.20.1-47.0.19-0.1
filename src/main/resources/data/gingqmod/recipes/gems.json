@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "group": "gems",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "gingqmod:raw_gems"
+  },
+  "result": "gingqmod:gems"
+}

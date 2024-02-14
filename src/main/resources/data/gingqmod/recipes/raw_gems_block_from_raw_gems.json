@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "gingqmod:raw_gems"
+    }
+  },
+  "result": {
+    "item": "gingqmod:raw_gems_block"
+  },
+  "show_notification": true
+}
