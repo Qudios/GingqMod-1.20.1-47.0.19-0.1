@@ -1,6 +1,7 @@
 package net.Nindq;
 
 import com.mojang.logging.LogUtils;
+import net.Nindq.blocks.ModBlocks;
 import net.Nindq.items.ModCreativeModeTabs;
 import net.Nindq.items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,7 @@ public class GingqMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
