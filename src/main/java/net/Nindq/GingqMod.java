@@ -1,6 +1,9 @@
 package net.Nindq;
 
 import com.mojang.logging.LogUtils;
+import net.Nindq.items.ModCreativeModeTabs;
+import net.Nindq.items.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +26,10 @@ public class GingqMod {
 
     public GingqMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -35,7 +42,10 @@ public class GingqMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.GEMS);
+            event.accept(ModItems.RAW_GEMS);
+        }
     }
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
