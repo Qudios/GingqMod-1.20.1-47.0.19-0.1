@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GEMS.get());
                         output.accept(ModItems.RAW_GEMS.get());
                         output.accept(ModBlocks.GEMS_BLOCKS.get());
+                        output.accept(ModBlocks.RAW_GEMS_BLOCK.get());
                     })
                     .build());
 
