@@ -1,7 +1,14 @@
 {
   "item.gingqmod.gems": "Gems",
   "item.gingqmod.raw_gems": "Raw Gems",
+
+  "item.gingqmod.ore_detector": "Ore Detector",
+
   "block.gingqmod.gems_block": "Block of Gems",
-  "block.gingqmod.raw_gems_block": "Gems Ore",
+  "block.gingqmod.raw_gems_block": "Block of Raw Gems",
+
+  "block.gingqmod.gems_ore": "Gem Ore",
+  "block.gingqmod.deepslate_gems_ore": "Deepslate Gem Ore",
+
   "creativetab.gingq_tab": "Gingq's Tab"
 }

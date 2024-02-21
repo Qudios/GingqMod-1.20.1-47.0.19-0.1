@@ -20,8 +20,11 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GEMS.get());
                         output.accept(ModItems.RAW_GEMS.get());
+                        output.accept(ModItems.ORE_DETECTOR.get());
                         output.accept(ModBlocks.GEMS_BLOCKS.get());
                         output.accept(ModBlocks.RAW_GEMS_BLOCK.get());
+                        output.accept(ModBlocks.GEMS_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_GEMS_ORE.get());
                     })
                     .build());
 
