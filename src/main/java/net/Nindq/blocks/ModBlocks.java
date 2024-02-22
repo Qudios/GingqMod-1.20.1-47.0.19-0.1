@@ -1,6 +1,7 @@
 package net.Nindq.blocks;
 
 import net.Nindq.GingqMod;
+import net.Nindq.blocks.custom.SoundBlock;
 import net.Nindq.items.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -23,6 +24,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GEMS_BLOCKS = registerBlock("gems_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(.5f)));
 
     public static final RegistryObject<Block> RAW_GEMS_BLOCK = registerBlock("raw_gems_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_COPPER_BLOCK).sound(SoundType.AMETHYST_CLUSTER)));

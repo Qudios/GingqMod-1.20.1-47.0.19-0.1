@@ -2,6 +2,10 @@
   "item.gingqmod.gems": "Gems",
   "item.gingqmod.raw_gems": "Raw Gems",
 
+  "item.gingqmod.strawberry": "Strawberry",
+
+  "item.gingqmod.firewood": "Firewood",
+
   "item.gingqmod.ore_detector": "Ore Detector",
 
   "block.gingqmod.gems_block": "Block of Gems",
@@ -9,6 +13,9 @@
 
   "block.gingqmod.gems_ore": "Gem Ore",
   "block.gingqmod.deepslate_gems_ore": "Deepslate Gem Ore",
+  "block.gingqmod.sound_block": "Sound Block",
+
+  "tooltip.gingqmod.oredectectoritem.tooltip": "This Item can help find Ores underground",
 
   "creativetab.gingq_tab": "Gingq's Tab"
 }

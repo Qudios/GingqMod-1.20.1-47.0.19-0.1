@@ -18,13 +18,23 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GEMS.get()))
                     .title(Component.translatable("creativetab.gingq_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+
+
                         output.accept(ModItems.GEMS.get());
                         output.accept(ModItems.RAW_GEMS.get());
+
                         output.accept(ModItems.ORE_DETECTOR.get());
+
+                        output.accept(ModItems.STRAWBERRY.get());
+
+                        output.accept(ModItems.FIREWOOD.get());
+
                         output.accept(ModBlocks.GEMS_BLOCKS.get());
                         output.accept(ModBlocks.RAW_GEMS_BLOCK.get());
+
                         output.accept(ModBlocks.GEMS_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_GEMS_ORE.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 
