@@ -59,7 +59,7 @@ public class OreDetecterItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockpos, Player player, Block block) {
-        player.sendSystemMessage(Component.literal("Found" + I18n.get(block.getDescriptionId()) + "at" +
+        player.sendSystemMessage(Component.literal("Found " + I18n.get(block.getDescriptionId()) + " at " +
                 "(" + blockpos.getX() + "," + blockpos.getY() + "," + blockpos.getZ() + ")"));
     }
 
