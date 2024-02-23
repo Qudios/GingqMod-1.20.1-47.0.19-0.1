@@ -29,7 +29,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.GEMS_BLOCKS.get());
         this.dropSelf(ModBlocks.RAW_GEMS_BLOCK.get());
-        this.dropSelf(ModBlocks.SOUND_BLOCK.get());
+      //  this.dropSelf(ModBlocks.SOUND_BLOCK.get());
         this.add(ModBlocks.GEMS_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.GEMS_ORE.get(), ModItems.RAW_GEMS.get()));
         this.add(ModBlocks.DEEPSLATE_GEMS_ORE.get(),
