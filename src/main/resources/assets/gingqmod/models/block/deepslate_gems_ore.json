@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures" : {
-    "all": "gingqmod:block/deepslate_gems_ore"
-  }
-}
