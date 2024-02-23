@@ -1,0 +1,16 @@
+// 1.20.1	2024-02-22T22:21:03.0733609	Block States: gingqmod
+8a9bbfc140c5c308676a7271ba1f2785d05edfdd assets/gingqmod/blockstates/deepslate_gems_ore.json
+ad0b8751303a3ec0f797d27b733a344383653b21 assets/gingqmod/blockstates/gems_block.json
+8cfe8172c38f07f990da9711d50d6236dbc0cbb6 assets/gingqmod/blockstates/gems_ore.json
+7c471a3f37a9526ad554fd3432dc557d3a0e4106 assets/gingqmod/blockstates/raw_gems_block.json
+b1c1f2e51050e1d3cbe58023ba8a7db4cecc69d7 assets/gingqmod/blockstates/sound_block.json
+ecee4df35f5b677928caf5a7870b6fb68afdc048 assets/gingqmod/models/block/deepslate_gems_ore.json
+94c77efa46697339eca1791948e687789880c80f assets/gingqmod/models/block/gems_block.json
+2673e859c6862695fb388a01a1b3d2496a63c70e assets/gingqmod/models/block/gems_ore.json
+9e076d05d75fc8106cbc30a9bc1783a5b9ba9052 assets/gingqmod/models/block/raw_gems_block.json
+041d82a87738a9ae5766d343ff0813c3f5a9af6a assets/gingqmod/models/block/sound_block.json
+3fbfe933dac351cff604630f15902f0faf4032a5 assets/gingqmod/models/item/deepslate_gems_ore.json
+0b45ecdcf60a0a152af9a677006032bcc73bf065 assets/gingqmod/models/item/gems_block.json
+f2a952c314899879b0474ff4f222c41af040dcbd assets/gingqmod/models/item/gems_ore.json
+563b242f06320a4e601b697bb1b74b20a822e77d assets/gingqmod/models/item/raw_gems_block.json
+dcb974f5bafb716c446275add0d99742154e221d assets/gingqmod/models/item/sound_block.json

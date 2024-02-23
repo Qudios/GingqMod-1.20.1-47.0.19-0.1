@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gingqmod:block/sound_block"
+    }
+  }
+}

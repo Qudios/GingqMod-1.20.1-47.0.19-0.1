@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gingqmod:gems_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "gingqmod:gems"
+  }
+}

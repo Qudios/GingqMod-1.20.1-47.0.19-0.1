@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 500,
+  "experience": 0.75,
+  "group": "gems",
+  "ingredient": {
+    "item": "gingqmod:raw_gems_block"
+  },
+  "result": "gingqmod:gems_block"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "gingqmod:gems"
+    }
+  },
+  "pattern": [
+    " ##",
+    "X# ",
+    "XX "
+  ],
+  "result": {
+    "item": "gingqmod:ore_detector"
+  },
+  "show_notification": true
+}
