@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.GEMS.get());
                         output.accept(ModItems.RAW_GEMS.get());
 
+                        output.accept(ModItems.GEM_STAFF.get());
+
                         output.accept(ModItems.ORE_DETECTOR.get());
 
                         output.accept(ModItems.STRAWBERRY.get());

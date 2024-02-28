@@ -18,6 +18,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_GEMS = ITEMS.register("raw_gems",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GEM_STAFF = ITEMS.register("gem_staff",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModsFoods.STRAWBERRY)));
